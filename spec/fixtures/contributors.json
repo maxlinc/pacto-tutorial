@@ -1,0 +1,22 @@
+[
+  {
+    "login": "joshuaclayton",
+    "id": 1574,
+    "avatar_url": "https://2.gravatar.com/avatar/786f05409ca8d18bae8d59200156272c?d=https%3A%2F%2Fidenticons.github.com%2F0d4f4805c36dc6853edfa4c7e1638b48.png",
+    "gravatar_id": "786f05409ca8d18bae8d59200156272c",
+    "url": "https://api.github.com/users/joshuaclayton",
+    "html_url": "https://github.com/joshuaclayton",
+    "followers_url": "https://api.github.com/users/joshuaclayton/followers",
+    "following_url": "https://api.github.com/users/joshuaclayton/following{/other_user}",
+    "gists_url": "https://api.github.com/users/joshuaclayton/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/joshuaclayton/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/joshuaclayton/subscriptions",
+    "organizations_url": "https://api.github.com/users/joshuaclayton/orgs",
+    "repos_url": "https://api.github.com/users/joshuaclayton/repos",
+    "events_url": "https://api.github.com/users/joshuaclayton/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/joshuaclayton/received_events",
+    "type": "User",
+    "site_admin": false,
+    "contributions": 377
+  }
+]
