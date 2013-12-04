@@ -1,0 +1,111 @@
+{
+  "request": {
+    "headers": {
+    },
+    "method": "get",
+    "params": {
+    },
+    "path": "/repos/thoughtbot/factory_girl/contributors"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "Status": "200 OK",
+      "Cache-Control": "public, max-age=60, s-maxage=60",
+      "Vary": [
+        "Accept",
+        "Accept-Encoding"
+      ],
+      "Access-Control-Allow-Credentials": "true",
+      "Access-Control-Expose-Headers": "ETag, Link, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval",
+      "Access-Control-Allow-Origin": "*"
+    },
+    "status": 200,
+    "body": {
+      "$schema": "http://json-schema.org/draft-03/schema#",
+      "description": "Generated from vcr with shasum e1c8b17344160114a5953a5e34f1043cf37ab93f",
+      "type": "array",
+      "required": true,
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "required": true,
+        "properties": {
+          "login": {
+            "type": "string",
+            "required": true
+          },
+          "id": {
+            "type": "integer",
+            "required": true
+          },
+          "avatar_url": {
+            "type": "string",
+            "required": true
+          },
+          "gravatar_id": {
+            "type": "string",
+            "required": true
+          },
+          "url": {
+            "type": "string",
+            "required": true
+          },
+          "html_url": {
+            "type": "string",
+            "required": true
+          },
+          "followers_url": {
+            "type": "string",
+            "required": true
+          },
+          "following_url": {
+            "type": "string",
+            "required": true
+          },
+          "gists_url": {
+            "type": "string",
+            "required": true
+          },
+          "starred_url": {
+            "type": "string",
+            "required": true
+          },
+          "subscriptions_url": {
+            "type": "string",
+            "required": true
+          },
+          "organizations_url": {
+            "type": "string",
+            "required": true
+          },
+          "repos_url": {
+            "type": "string",
+            "required": true
+          },
+          "events_url": {
+            "type": "string",
+            "required": true
+          },
+          "received_events_url": {
+            "type": "string",
+            "required": true
+          },
+          "type": {
+            "type": "string",
+            "required": true
+          },
+          "site_admin": {
+            "type": "boolean",
+            "required": false
+          },
+          "contributions": {
+            "type": "integer",
+            "required": true
+          }
+        }
+      }
+    }
+  }
+}
