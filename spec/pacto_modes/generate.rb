@@ -1,0 +1,1 @@
+Pacto.generate!
