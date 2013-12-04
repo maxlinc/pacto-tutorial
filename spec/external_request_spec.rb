@@ -1,4 +1,3 @@
-# spec/features/external_request_spec.rb
 require 'spec_helper'
 
 describe 'External request', :vcr => true do

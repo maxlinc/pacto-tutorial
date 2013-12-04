@@ -1,4 +1,3 @@
-# spec/support/fake_github.rb
 require 'webmock/rspec'
 require 'sinatra/base'
 
