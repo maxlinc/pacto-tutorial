@@ -10,8 +10,9 @@ require "pacto_modes/#{pacto_mode}" if pacto_mode
 
 stub_provider = ENV['STUB_WITH']
 if stub_provider
+  puts "Stubbing with: #{stub_provider}"
   require "stub_providers/#{stub_provider}"
 else
-  # We're live!
+  puts "Running live tests"
   WebMock.allow_net_connect!
 end
