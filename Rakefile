@@ -1,4 +1,5 @@
 require 'rspec/core/rake_task'
+require 'pacto/rake_task'
 
 RSpec::Core::RakeTask.new(:spec)
 

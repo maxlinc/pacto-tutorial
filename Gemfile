@@ -8,4 +8,5 @@ gem "rspec"
 gem "webmock"
 gem "vcr"
 gem "sinatra"
+gem "pry"
 
