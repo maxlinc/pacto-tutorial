@@ -151,8 +151,8 @@ $ PACTO_MODE=validate bundle exec rake test:vcr
 You should see they both pass.  Now try:
 
 ```sh
-$ PACTO_MODE=validate brake test:webmock
-$ PACTO_MODE=validate brake test:sinatra
+$ PACTO_MODE=validate bundle exec rake test:webmock
+$ PACTO_MODE=validate bundle exec rake test:sinatra
 ```
 
 You'll see some errors:
